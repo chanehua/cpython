@@ -1,4 +1,4 @@
-FROM buildpack-deps:jessie
+FROM ubuntu
 
 # remove several traces of debian python
 RUN apt-get purge -y python.*
